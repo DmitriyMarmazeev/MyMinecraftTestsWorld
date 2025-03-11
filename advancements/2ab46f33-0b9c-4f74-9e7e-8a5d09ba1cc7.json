@@ -169,6 +169,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2025-03-11 09:27:48 +0300",
       "minecraft:vindicator": "2025-03-03 21:34:30 +0300",
       "minecraft:zombie": "2025-02-25 08:18:21 +0300"
     },
@@ -225,6 +226,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
     "criteria": {
       "has_tag": "2025-03-10 10:37:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-03-11 09:27:34 +0300"
     },
     "done": true
   },

@@ -1,0 +1,11 @@
+{
+  "boss.shadowi.slash": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "cot:boss/shadowi/slash",
+        "stream": false
+      }
+    ]
+  }
+}
