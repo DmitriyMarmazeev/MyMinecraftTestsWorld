@@ -4,4 +4,4 @@ execute store result score #playerCount playerCount run execute if entity @a[gam
 scoreboard objectives add blockDamage minecraft.used:minecraft.shield
 scoreboard players set @a blockDamage 0
 scoreboard objectives add health dummy
-execute as @e[type=armor_stand,tag=boss] run item replace entity @s armor.head with minecraft:coal_block
+execute as @e[tag=boss] run item replace entity @s armor.head with minecraft:coal_block
