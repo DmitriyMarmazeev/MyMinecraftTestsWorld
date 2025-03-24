@@ -1,3 +1,5 @@
+schedule clear cot:boss/shadowi/slash/trace
+function cot:boss/shadowi/slash/toss
 damage @p[tag=target] 10 minecraft:player_attack by @e[tag=boss,limit=1]
 execute at @e[tag=endOfTrace] run tp @e[tag=boss_controller] ~ ~ ~
 execute as @e[tag=freeze] run data merge entity @s {Motion:[0.0, 0.589, 0.0]}
