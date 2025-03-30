@@ -34,5 +34,14 @@
         "stream": true
       }
     ]
+  },
+  "boss.shadowi.appear": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "cot:boss/shadowi/appear",
+        "stream": false
+      }
+    ]
   }
 }
