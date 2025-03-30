@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "cot:font/scars.png",
+      "ascent": 60,
+      "height": 120,
+      "chars": ["\uE100"]
+    }
+  ]
+}

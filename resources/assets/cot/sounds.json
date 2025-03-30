@@ -7,5 +7,32 @@
         "stream": false
       }
     ]
+  },
+  "boss.shadowi.rending": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "cot:boss/shadowi/rending",
+        "stream": false
+      }
+    ]
+  },
+  "boss.shadowi.approach": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "cot:boss/shadowi/approach",
+        "stream": false
+      }
+    ]
+  },
+  "boss.shadowi.atmosphere": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "cot:boss/shadowi/atmosphere",
+        "stream": true
+      }
+    ]
   }
 }
