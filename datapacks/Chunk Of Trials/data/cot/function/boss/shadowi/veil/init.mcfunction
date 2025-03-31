@@ -18,7 +18,6 @@ effect give @a minecraft:darkness 89 1 true
 #effect give @a minecraft:blindness 89 0 true
 
 execute at @e[tag=boss_controller] run playsound cot:boss.shadowi.atmosphere master @a ~ ~ ~ 1000 1 1
-title @a title {"text":"\u041e\u043f\u0430\u0441\u0430\u0439\u0441\u044f \u0441\u0442\u0435\u043d","color":"dark_red"}
 
 execute at @e[tag=boss_controller] run summon armor_stand ~ ~ ~ {Tags:["shadow_monster"],Marker:1b,NoGravity:1b,Invisible:1b,Invulnerable:1b}
 

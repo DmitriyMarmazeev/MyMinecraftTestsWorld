@@ -43,5 +43,14 @@
         "stream": false
       }
     ]
+  },
+  "boss.shadowi.laugh": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "cot:boss/shadowi/laugh",
+        "stream": false
+      }
+    ]
   }
 }
