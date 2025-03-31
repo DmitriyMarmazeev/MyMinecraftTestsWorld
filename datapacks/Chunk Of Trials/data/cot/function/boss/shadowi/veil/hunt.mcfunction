@@ -3,6 +3,7 @@ execute as @e[tag=shadow_monster,limit=1] at @s run damage @p[tag=target,distanc
 execute as @e[tag=shadow_monster] run item replace entity @s armor.head with minecraft:air
 
 execute if entity @p[tag=target,scores={takeDamage=1..}] run function cot:boss/shadowi/veil/damage with storage cot:shadowi veil_attack
+execute if entity @p[tag=target,scores={takeDamage=0}] at @e[tag=shadow_monster] run playsound minecraft:entity.wolf.death master @a ~ ~ ~ 1000 1 1
 
 tag @e[tag=shadow_monster] remove shadow_monster_appearing
 
