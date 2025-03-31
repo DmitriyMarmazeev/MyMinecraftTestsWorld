@@ -4,7 +4,7 @@ execute as @e[tag=boss_controller] at @s run tp @s ~ ~3 ~
 
 scoreboard objectives add health dummy
 scoreboard objectives add takeDamage minecraft.custom:minecraft.damage_resisted
-scoreboard players set @a blockDamage 0
+scoreboard players set @a takeDamage 0
 
 execute store result score #playerCount playerCount run execute if entity @a[gamemode=adventure]
 scoreboard objectives add damageAmount dummy
